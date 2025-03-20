@@ -23,7 +23,7 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-    <html lang="en">
+    <html lang="en" className="dark" style={{ colorScheme: " dark" }}>
       <body className={`${jostFont.variable} antialiased h-[100%]`}>
         <Providers>
           <div className="flex h-full w-full">
