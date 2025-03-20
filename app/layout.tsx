@@ -23,15 +23,15 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang="en">
-			<body className={`${jostFont.variable} antialiased h-[100%]`}>
-				<Providers>
-					<div className="flex h-full w-full">
-						<SideBar />
-						{children}
-					</div>
-				</Providers>
-			</body>
-		</html>
-	);
+    <html lang="en">
+      <body className={`${jostFont.variable} antialiased h-[100%]`}>
+        <Providers>
+          <div className="flex h-full w-full">
+            <SideBar />
+            {children}
+          </div>
+        </Providers>
+      </body>
+    </html>
+  );
 }
