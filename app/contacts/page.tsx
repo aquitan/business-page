@@ -3,7 +3,7 @@ import { Input, Textarea } from "@heroui/input";
 
 const Contacts = () => {
   return (
-    <div className="flex flex-col gap-6 py-6 px-4 justify-center items-center w-full">
+    <div className="flex flex-col gap-6 py-6 px-4 justify-center items-center w-full pb-[100px] md:pb-6">
       <h1 className="text-3xl font-semibold">Contact us</h1>
       <form className="flex flex-col gap-4 max-w-[450px] w-full" action="">
         <Input label="Email" type="email" />
