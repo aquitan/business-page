@@ -14,7 +14,7 @@ const SideBar = () => {
   const pathname = usePathname();
 
   return (
-    <div className="flex fixed z-10 justify-center gap-4 md:gap-2 p-2 bottom-0 h-[80px] w-full md:w-[100px] flex-row md:flex-col md:relative md:justify-between items-center md:h-full md:p-3 bg-background">
+    <div className="flex fixed z-50 justify-center gap-4 md:gap-2 p-2 bottom-0 h-[80px] w-full md:w-[100px] flex-row md:flex-col md:relative md:justify-between items-center md:h-full md:p-3 bg-background">
       <div className="hidden md:block">Logo</div>
       <div className="flex flex-row md:flex-col justify-center items-center gap-4 md:gap-2">
         <Link
